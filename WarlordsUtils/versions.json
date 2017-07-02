@@ -3,8 +3,10 @@
         "2.0.0": {
             "enabled": true,
             "latest": true,
-            "download-link": "",
-            "release-date": 1499001301769,
+            "dlink": "",
+            "timezone": "Etc/GMT+0",
+            "timezoneDisplay": "GMT",
+            "releaseDate": 1499001301769,
             "expires": -1,
             "changelog": [
                 "Internal code changes."
