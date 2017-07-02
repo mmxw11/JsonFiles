@@ -1,0 +1,14 @@
+{
+    "versions": {
+        "2.0.0": {
+            "enabled": true,
+            "latest": true,
+            "download-link": "",
+            "release-date": 1499001301769,
+            "expires": -1,
+            "changelog": [
+                "Internal code changes."
+            ]
+        }
+    }
+}
