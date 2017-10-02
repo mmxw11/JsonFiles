@@ -1,1 +1,41 @@
-[{}]
+[{
+        "name": "users",
+        "identifier": "",
+        "collectionIndex": 1
+    },
+    {
+        "name": "userlogs",
+        "identifier": "",
+        "collectionIndex": 1
+    },
+    {
+        "name": "authentications",
+        "identifier": "",
+        "collectionIndex": 1
+    },
+    {
+        "name": "ipaddresses",
+        "identifier": "",
+        "collectionIndex": 1
+    },
+    {
+        "name": "networkranks",
+        "identifier": "",
+        "collectionIndex": 1
+    },
+    {
+        "name": "punishments",
+        "identifier": "P",
+        "collectionIndex": 1
+    },
+    {
+        "name": "sactions",
+        "identifier": "S",
+        "collectionIndex": 1
+    },
+    {
+        "name": "backups",
+        "identifier": "B",
+        "collectionIndex": 1
+    }
+]
