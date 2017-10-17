@@ -1,0 +1,8 @@
+{
+    "statsCollection": "gamestats",
+    "registry": [{
+        "dbGameKey": "paintball",
+        "enabled": true,
+        "settingsUrl": ""
+    }]
+}
