@@ -1,8 +1,39 @@
 {
-    "statsCollection": "gamestats",
-    "registry": [{
-        "dbGameKey": "paintball",
-        "enabled": true,
-        "settingsUrl": ""
-    }]
+	"statsCollection": "gamestats",
+	"gameInfoSheet": "GameInfo",
+	"gameRegistry": [{
+			"dbGameKey": "paintball",
+			"name": "Paintball",
+			"enabled": true,
+			"dbGameColl": "pbgame",
+			"sorterStatsKey": null,
+			"statKeys": [],
+			"sheets": [{
+					"sheetType": "TestSheet1",
+					"sheetId": "11111111111111"
+				},
+				{
+					"sheetType": "TestSheet2",
+					"sheetId": "12222222222222"
+				}
+			]
+		},
+		{
+			"dbGameKey": "test",
+			"name": "Test",
+			"enabled": true,
+			"dbGameColl": "testgame",
+			"sorterStatsKey": null,
+			"statKeys": [],
+			"sheets": [{
+					"sheetType": "Sheet3",
+					"sheetId": "lol"
+				},
+				{
+					"sheetType": "Sheet4",
+					"sheetId": "lolz2"
+				}
+			]
+		}
+	]
 }
