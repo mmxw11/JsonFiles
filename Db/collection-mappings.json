@@ -1,4 +1,5 @@
-[{
+[
+  {
         "name": "users",
         "identifier": "",
         "collectionIndex": 1
@@ -36,6 +37,11 @@
     {
         "name": "backups",
         "identifier": "B",
+        "collectionIndex": 1
+    },
+    {
+        "name": "gamestats",
+        "identifier": "",
         "collectionIndex": 1
     }
 ]
