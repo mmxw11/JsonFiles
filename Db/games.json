@@ -9,6 +9,7 @@
             "lbEnabled": true,
             "dbGameColl": "pbgame",
             "sorterStatsKey": null,
+            "sortedEntiesToDisplay": 10,
             "statsKeys": [],
             "sheets": {
                 "TestSheet1": "11111111111111",
@@ -22,6 +23,7 @@
             "lbEnabled": false,
             "dbGameColl": "testgame",
             "sorterStatsKey": null,
+            "sortedEntiesToDisplay": 10,
             "statsKeys": [],
             "sheets": {
                 "Sheet3": "lol",
