@@ -1,13 +1,15 @@
 {
     "statsCollection": "gamestats",
-    "gameInfoSheet": "GameInfo",
+    "ginfoSheet": "SheetDataInfo",
+    "gdataServers": "",
     "gameRegistry": [{
             "name": "Paintball",
             "dbGameKey": "paintball",
             "enabled": true,
+            "lbEnabled": true,
             "dbGameColl": "pbgame",
             "sorterStatsKey": null,
-            "statKeys": [],
+            "statsKeys": [],
             "sheets": {
                 "TestSheet1": "11111111111111",
                 "TestSheet2": "12222222222222"
@@ -17,9 +19,10 @@
             "name": "Test",
             "dbGameKey": "test",
             "enabled": true,
+            "lbEnabled": false,
             "dbGameColl": "testgame",
             "sorterStatsKey": null,
-            "statKeys": [],
+            "statsKeys": [],
             "sheets": {
                 "Sheet3": "lol",
                 "Sheet4": "lolz2"
