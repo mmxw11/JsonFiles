@@ -3,32 +3,19 @@
     "ginfoSheet": "SheetDataInfo",
     "gdataServers": "",
     "gameRegistry": [{
-            "name": "Paintball",
-            "dbGameKey": "paintball",
-            "enabled": true,
-            "lbEnabled": true,
-            "dbGameColl": "pbgame",
-            "sorterStatsKey": null,
-            "sortedEntiesToDisplay": 10,
-            "statsKeys": [],
-            "sheets": {
-                "TestSheet1": "11111111111111",
-                "TestSheet2": "12222222222222"
-            }
+        "name": "Paintball",
+        "dbGameKey": "paintball",
+        "enabled": true,
+        "lbEnabled": true,
+        "dbGameColl": "pbgames",
+        "sorterStatsKey": "kills",
+        "sortedEntiesToDisplay": 10,
+        "statsKeys": {
+            "kills": "Kills"
         },
-        {
-            "name": "Test",
-            "dbGameKey": "test",
-            "enabled": true,
-            "lbEnabled": false,
-            "dbGameColl": "testgame",
-            "sorterStatsKey": null,
-            "sortedEntiesToDisplay": 10,
-            "statsKeys": [],
-            "sheets": {
-                "Sheet3": "lol",
-                "Sheet4": "lolz2"
-            }
+        "sheets": {
+            "TestSheet1": "11111111111111",
+            "TestSheet2": "12222222222222"
         }
-    ]
+    }]
 }
