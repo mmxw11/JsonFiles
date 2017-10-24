@@ -4,18 +4,33 @@
     "gdataServers": "",
     "gameRegistry": [{
         "name": "Paintball",
-        "dbGameKey": "paintball",
+        "gameDatabaseKey": "paintball",
+        "gameDatabaseCollection": "paintballgames",
         "enabled": true,
-        "lbEnabled": true,
-        "dbGameColl": "pbgames",
-        "sorterStatsKey": "kills",
-        "sortedEntiesToDisplay": 10,
-        "statsKeys": {
-            "kills": "Kills"
+        "useLeaderboards": true,
+        "displayedLbEntries": 10,
+        "displayedGStatsKeys": {
+            "kills": "Kills",
+            "deaths": "Deaths",
+            "wins": "Wins",
+            "killstreaks": "Killstreaks",
+            "shotsFired": "Shots Fired",
+            "killDeathRation": "Kill Death Ratio",
+            "shotsKillRation": "Shots / Kill Ratio",
+            "forceFieldTime": "ForceField Time",
+            "coins": "Coins"
         },
-        "sheets": {
-            "TestSheet1": "11111111111111",
-            "TestSheet2": "12222222222222"
-        }
+        "lbStatsSorterKey": "kills",
+        "lbStatsKeys": {
+            "kills": "Kills",
+            "deaths": "Deaths",
+            "wins": "Wins",
+            "killstreaks": "Killstreaks",
+            "forceFieldTime": "ForceField Time",
+            "killDeathRation": "Kill Death Ratio",
+            "shotsKillRation": "Shots / Kill Ratio",
+            "coins": "Coins"
+        },
+        "sheets": {}
     }]
 }
