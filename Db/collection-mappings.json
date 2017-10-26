@@ -43,5 +43,10 @@
         "name": "gamestats",
         "identifier": "",
         "collectionIndex": 1
+    },
+    {
+        "name": "paintballgames",
+        "identifier": "PB",
+        "collectionIndex": 1
     }
 ]
