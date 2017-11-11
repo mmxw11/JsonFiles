@@ -67,15 +67,15 @@
                 },
                 "killDeathRation": {
                     "display": "K/D",
-                    "format": "NUMBER_FORMAT_DECIMAL_US"
+                    "format": "DECIMAL_NUMBER_FORMAT_US"
                 },
                 "shotsKillRation": {
                     "display": "S/K",
-                    "format": "NUMBER_FORMAT_DECIMAL_US"
+                    "format": "DECIMAL_NUMBER_FORMAT_US"
                 },
                 "forceFieldTime": {
                     "display": "ForceField Time",
-                    "format": "NUMBER_FORMAT_MILLIS_US"
+                    "format": "TIME_MILLIS_FORMAT_US"
                 },
                 "coins": {
                     "display": "Coins",
