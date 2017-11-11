@@ -4,33 +4,84 @@
     "gdataServers": "",
     "gameRegistry": [{
         "name": "Paintball",
-        "gameDatabaseKey": "paintball",
-        "gameDatabaseCollection": "paintballgames",
+        "dbpath": "paintball",
+        "dbgcollection": "paintballgames",
         "enabled": true,
-        "useLeaderboards": true,
-        "displayedLbEntries": 10,
-        "displayedGStatsKeys": {
-            "kills": "Kills",
-            "deaths": "Deaths",
-            "wins": "Wins",
-            "killstreaks": "Killstreaks",
-            "shotsFired": "Shots Fired",
-            "killDeathRation": "Kill Death Ratio",
-            "shotsKillRation": "Shots / Kill Ratio",
-            "forceFieldTime": "ForceField Time",
-            "coins": "Coins"
-        },
-        "lbStatsSorterKey": "kills",
-        "lbStatsKeys": {
-            "kills": "Kills",
-            "deaths": "Deaths",
-            "wins": "Wins",
-            "killstreaks": "Killstreaks",
-            "forceFieldTime": "ForceField Time",
-            "killDeathRation": "Kill Death Ratio",
-            "shotsKillRation": "Shots / Kill Ratio",
-            "coins": "Coins"
-        },
-        "sheets": {}
+        "sheets": {},
+        "leaderboards": [{
+                "path": "kills_all",
+                "displayentries": 10
+            },
+            {
+                "path": "kills_m",
+                "displayentries": 10
+            },
+            {
+                "path": "kills_w",
+                "displayentries": 10
+            }
+        ],
+        "statsKeys": {
+            "defaultSorterKey": "kills",
+            "displayedStats": [
+                "kills",
+                "deaths",
+                "wins",
+                "killstreaks",
+                "shotsFired",
+                "killDeathRation",
+                "shotsKillRation",
+                "forceFieldTime",
+                "coins"
+            ],
+            "leaderboardStats": [
+                "kills",
+                "deaths",
+                "wins",
+                "killstreaks",
+                "forceFieldTime",
+                "killDeathRation",
+                "shotsKillRation",
+                "coins"
+            ],
+            "keyFormats": {
+                "kills": [{
+                    "display": "Kills",
+                    "format": "NUMBER_FORMAT_US"
+                }],
+                "deaths": [{
+                    "display": "Deaths",
+                    "format": "NUMBER_FORMAT_US"
+                }],
+                "wins": [{
+                    "display": "Wins",
+                    "format": "NUMBER_FORMAT_US"
+                }],
+                "killstreaks": [{
+                    "display": "Killstreaks",
+                    "format": "NUMBER_FORMAT_US"
+                }],
+                "shotsFired": [{
+                    "display": "Shots Fired",
+                    "format": "NUMBER_FORMAT_US"
+                }],
+                "killDeathRation": [{
+                    "display": "K/D",
+                    "format": "NUMBER_FORMAT_DECIMAL_US"
+                }],
+                "shotsKillRation": [{
+                    "display": "S/K",
+                    "format": "NUMBER_FORMAT_DECIMAL_US"
+                }],
+                "forceFieldTime": [{
+                    "display": "ForceField Time",
+                    "format": "NUMBER_FORMAT_MILLIS_US"
+                }],
+                "coins": [{
+                    "display": "Coins",
+                    "format": "NUMBER_FORMAT_US"
+                }]
+            }
+        }
     }]
 }
