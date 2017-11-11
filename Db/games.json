@@ -8,77 +8,57 @@
         "dbgcollection": "paintballgames",
         "enabled": true,
         "sheets": {},
-        "leaderboards": [{
-                "path": "kills_all",
-                "displayEntries": 10
-            },
-            {
-                "path": "kills_m",
-                "displayEntries": 10
-            },
-            {
-                "path": "kills_w",
-                "displayEntries": 10
-            }
+        "leaderboardPaths": [
+            "kills_all",
+            "kills_m",
+            "kills_w"
         ],
         "statsKeys": {
             "defaultSorterKey": "kills",
-            "displayedStats": [
-                "kills",
-                "deaths",
-                "wins",
-                "killstreaks",
-                "shotsFired",
-                "killDeathRation",
-                "shotsKillRation",
-                "forceFieldTime",
-                "coins"
-            ],
-            "leaderboardStats": [
-                "kills",
-                "deaths",
-                "wins",
-                "killstreaks",
-                "forceFieldTime",
-                "killDeathRation",
-                "shotsKillRation",
-                "coins"
-            ],
             "keyFormats": {
                 "kills": {
                     "display": "Kills",
+                    "leaderboardKey": true,
                     "format": "NUMBER_FORMAT_US"
                 },
                 "deaths": {
                     "display": "Deaths",
+                    "leaderboardKey": true,
                     "format": "NUMBER_FORMAT_US"
                 },
                 "wins": {
                     "display": "Wins",
+                    "leaderboardKey": true,
                     "format": "NUMBER_FORMAT_US"
                 },
                 "killstreaks": {
                     "display": "Killstreaks",
+                    "leaderboardKey": true,
                     "format": "NUMBER_FORMAT_US"
                 },
                 "shotsFired": {
                     "display": "Shots Fired",
+                    "leaderboardKey": false,
                     "format": "NUMBER_FORMAT_US"
                 },
                 "killDeathRation": {
                     "display": "K/D",
+                    "leaderboardKey": true,
                     "format": "DECIMAL_NUMBER_FORMAT_US"
                 },
                 "shotsKillRation": {
                     "display": "S/K",
+                    "leaderboardKey": true,
                     "format": "DECIMAL_NUMBER_FORMAT_US"
                 },
                 "forceFieldTime": {
                     "display": "ForceField Time",
+                    "leaderboardKey": true,
                     "format": "TIME_MILLIS_FORMAT_US"
                 },
                 "coins": {
                     "display": "Coins",
+                    "leaderboardKey": true,
                     "format": "NUMBER_FORMAT_US"
                 }
             }
