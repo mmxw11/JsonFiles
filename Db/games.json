@@ -15,7 +15,7 @@
         ],
         "statsKeys": {
             "defaultSorterKey": "kills",
-            "keyFormats": {
+            "keys": {
                 "kills": {
                     "display": "Kills",
                     "leaderboardKey": true,
