@@ -10,15 +10,15 @@
         "sheets": {},
         "leaderboards": [{
                 "path": "kills_all",
-                "displayentries": 10
+                "displayEntries": 10
             },
             {
                 "path": "kills_m",
-                "displayentries": 10
+                "displayEntries": 10
             },
             {
                 "path": "kills_w",
-                "displayentries": 10
+                "displayEntries": 10
             }
         ],
         "statsKeys": {
