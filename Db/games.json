@@ -45,42 +45,42 @@
                 "coins"
             ],
             "keyFormats": {
-                "kills": [{
+                "kills": {
                     "display": "Kills",
                     "format": "NUMBER_FORMAT_US"
-                }],
-                "deaths": [{
+                },
+                "deaths": {
                     "display": "Deaths",
                     "format": "NUMBER_FORMAT_US"
-                }],
-                "wins": [{
+                },
+                "wins": {
                     "display": "Wins",
                     "format": "NUMBER_FORMAT_US"
-                }],
-                "killstreaks": [{
+                },
+                "killstreaks": {
                     "display": "Killstreaks",
                     "format": "NUMBER_FORMAT_US"
-                }],
-                "shotsFired": [{
+                },
+                "shotsFired": {
                     "display": "Shots Fired",
                     "format": "NUMBER_FORMAT_US"
-                }],
-                "killDeathRation": [{
+                },
+                "killDeathRation": {
                     "display": "K/D",
                     "format": "NUMBER_FORMAT_DECIMAL_US"
-                }],
-                "shotsKillRation": [{
+                },
+                "shotsKillRation": {
                     "display": "S/K",
                     "format": "NUMBER_FORMAT_DECIMAL_US"
-                }],
-                "forceFieldTime": [{
+                },
+                "forceFieldTime": {
                     "display": "ForceField Time",
                     "format": "NUMBER_FORMAT_MILLIS_US"
-                }],
-                "coins": [{
+                },
+                "coins": {
                     "display": "Coins",
                     "format": "NUMBER_FORMAT_US"
-                }]
+                }
             }
         }
     }]
