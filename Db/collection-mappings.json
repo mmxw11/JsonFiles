@@ -10,7 +10,7 @@
         "collectionIndex": 1
     },
     {
-        "name": "authorizations",
+        "name": "authenticated_users",
         "identifier": "",
         "collectionIndex": 1
     },
