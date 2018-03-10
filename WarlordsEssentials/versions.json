@@ -1,0 +1,39 @@
+{
+    "versions": {
+        "2.5.0": {
+            "enabled": true,
+            "latest": true,
+            "dlink": "https://www.dropbox.com/s/zxgouezcz3enunh/WarlordsEssentials%20v2.5.0.jar?dl=1",
+            "timezone": "Etc/GMT+0",
+            "releaseDate": 1520685585553,
+            "expires": -1,
+            "changelog": [
+                "A Lot of internal changes"
+            ]
+        },
+        "2.1.0": {
+            "enabled": true,
+            "latest": false,
+            "dlink": "",
+            "timezone": "Etc/GMT+0",
+            "timezoneDisplay": "GMT",
+            "releaseDate": 1499019687378,
+            "expires": -1,
+            "changelog": [
+                "New Generation release."
+            ]
+        },
+        "2.0.0": {
+            "enabled": false,
+            "latest": false,
+            "dlink": "",
+            "timezone": "Etc/GMT+0",
+            "timezoneDisplay": "GMT",
+            "releaseDate": 1499001301769,
+            "expires": -1,
+            "changelog": [
+                "Internal code changes."
+            ]
+        }
+    }
+}
