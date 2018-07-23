@@ -1,11 +1,55 @@
 {
     "versions": {
+        "2.6.5": {
+            "enabled": true,
+            "dlink": "https://www.dropbox.com/s/wtbddlb0ko93w46/WarlordsEssentials-2.6.5.jar?dl=1",
+            "timezone": "Etc/GMT+0",
+            "releaseDate": 1523974861576,
+            "expires": -1,
+            "changelog": [
+                "Stable release"
+            ]
+        },
+        "2.6.4": {
+            "enabled": true,
+            "dlink": "",
+            "timezone": "Etc/GMT+0",
+            "releaseDate": 1523711689750,
+            "expires": -1,
+            "changelog": [
+                "Patch elements not updatings",
+                "Improve element display"
+            ]
+        },
+        "2.6.2": {
+            "enabled": false,
+            "dlink": "",
+            "timezone": "Etc/GMT+0",
+            "releaseDate": 1523703614524,
+            "expires": -1,
+            "changelog": [
+                "Added a file system",
+                "Added an ability to configure screen elements",
+                "Created a rendering system",
+                "Added a new command /wlgelements"
+            ]
+        },
+        "2.6.1": {
+            "enabled": true,
+            "dlink": "",
+            "timezone": "Etc/GMT+0",
+            "releaseDate": 1522954529308,
+            "expires": -1,
+            "changelog": [
+                "Added a feature to display stats on screen (toggle press R)."
+            ]
+        },
         "2.6.0": {
             "enabled": true,
-            "dlink": "https://www.dropbox.com/s/rrkfgcxaupszz1y/WarlordsEssentials-2.6.0.jar?dl=1",
+            "dlink": "",
             "timezone": "Etc/GMT+0",
             "releaseDate": 1521566805892,
-            "expires": -1,
+            "expires": 1523818529308,
             "changelog": [
                 "Distributed updater to another project",
                 "Tweaked a lot of things"
